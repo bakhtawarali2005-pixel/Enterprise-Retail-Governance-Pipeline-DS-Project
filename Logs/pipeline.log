@@ -1,0 +1,57 @@
+2026-07-22 14:28:30,885 - INFO - ==========================================
+2026-07-22 14:28:30,887 - INFO - Starting Enterprise Retail Pipeline Execution
+2026-07-22 14:28:30,888 - INFO - ==========================================
+2026-07-22 14:28:30,889 - INFO - Starting ingestion from: C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\data\raw\online_retail_II.csv
+2026-07-22 14:28:30,896 - ERROR - Ingestion failed: File not found at C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\data\raw\online_retail_II.csv
+2026-07-22 14:28:30,896 - CRITICAL - Pipeline execution failed: Ensure raw CSV exists at C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\data\raw\online_retail_II.csv
+2026-07-22 14:49:15,572 - INFO - ==========================================
+2026-07-22 14:49:15,598 - INFO - Starting Enterprise Retail Pipeline Execution
+2026-07-22 14:49:15,599 - INFO - ==========================================
+2026-07-22 14:49:15,600 - INFO - Starting ingestion from: C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\Data\online_retail_II.csv
+2026-07-22 14:49:19,211 - INFO - Successfully ingested 1,067,371 records.
+2026-07-22 14:49:19,211 - INFO - Starting data validation checks...
+2026-07-22 14:49:19,675 - INFO - Raw records ingested: 1,067,371
+2026-07-22 14:49:19,675 - INFO - Valid records passed: 805,549
+2026-07-22 14:49:19,675 - INFO - Quarantined records isolated: 261,822
+2026-07-22 14:49:19,964 - CRITICAL - Pipeline execution failed: Cannot save file into a non-existent directory: 'data\processed'
+2026-07-22 14:51:56,238 - INFO - ==========================================
+2026-07-22 14:51:56,238 - INFO - Starting Enterprise Retail Pipeline Execution
+2026-07-22 14:51:56,239 - INFO - ==========================================
+2026-07-22 14:51:56,240 - INFO - Starting ingestion from: C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\Data\online_retail_II.csv
+2026-07-22 14:52:01,050 - INFO - Successfully ingested 1,067,371 records.
+2026-07-22 14:52:01,051 - INFO - Starting data validation checks...
+2026-07-22 14:52:01,652 - INFO - Raw records ingested: 1,067,371
+2026-07-22 14:52:01,652 - INFO - Valid records passed: 805,549
+2026-07-22 14:52:01,652 - INFO - Quarantined records isolated: 261,822
+2026-07-22 14:52:21,808 - INFO - Clean data exported to data\processed\clean_retail_data.csv
+2026-07-22 14:52:21,808 - INFO - Calculating Customer Metrics Data Mart...
+2026-07-22 14:52:26,548 - INFO - Customer Mart created successfully with 5,878 active customers.
+2026-07-22 14:52:26,575 - INFO - Calculating Monthly Revenue Data Mart...
+2026-07-22 14:52:27,711 - INFO - Monthly Revenue Mart created across 25 months.
+2026-07-22 14:52:27,736 - INFO - Generating Monthly Revenue Trend plot...
+2026-07-22 14:52:29,798 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 14:52:29,814 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 14:52:32,461 - INFO - Saved monthly revenue chart to C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\reports\figures\monthly_revenue_trend.png
+2026-07-22 14:52:32,461 - INFO - Generating Top 10 Customer Spend plot...
+2026-07-22 14:52:32,536 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 14:52:32,567 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 14:52:34,381 - INFO - Saved top customers chart to C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\reports\figures\top_10_customers.png
+2026-07-22 14:52:34,382 - INFO - Pipeline completed successfully!
+2026-07-22 15:25:04,683 - INFO - Starting Enterprise Retail Pipeline Execution
+2026-07-22 15:25:04,688 - INFO - Starting ingestion from: C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\Data\online_retail_II.csv
+2026-07-22 15:25:09,437 - INFO - Successfully ingested 1,067,371 records.
+2026-07-22 15:25:09,439 - INFO - Starting data validation checks...
+2026-07-22 15:25:10,227 - INFO - Valid records: 805,549 | Quarantined: 261,822
+2026-07-22 15:25:35,965 - INFO - Exported clean_retail_data.csv and quarantined_records.csv
+2026-07-22 15:25:35,966 - INFO - Calculating Customer Metrics Data Mart...
+2026-07-22 15:25:40,769 - INFO - Customer Mart created successfully with 5,878 active customers.
+2026-07-22 15:25:40,802 - INFO - Calculating Monthly Revenue Data Mart...
+2026-07-22 15:25:41,875 - INFO - Monthly Revenue Mart created across 25 months.
+2026-07-22 15:25:41,910 - INFO - Generating Monthly Revenue Trend plot...
+2026-07-22 15:25:43,592 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 15:25:43,606 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 15:25:45,978 - INFO - Saved monthly revenue chart to C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\reports\figures\monthly_revenue_trend.png
+2026-07-22 15:25:45,980 - INFO - Generating Top 10 Customer Spend plot...
+2026-07-22 15:25:46,048 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 15:25:46,082 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-22 15:25:47,534 - INFO - Saved top customers chart to C:\Users\Bakhtawar\OneDrive\Desktop\DataScience Projects\Online Retail II UCI\reports\figures\top_10_customers.png
